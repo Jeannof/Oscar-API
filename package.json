@@ -1,0 +1,15 @@
+{
+  "name": "api-aerolinea",
+  "version": "1.0.0",
+  "description": "API REST modular (Routes, Controllers, Services, Models) para gestionar pilotos, aviones y asignaciones. SENA - ADSO Guía 6.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": ["express", "api", "modular", "sena"],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
